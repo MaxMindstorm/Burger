@@ -1,0 +1,45 @@
+@media(max-width:800px) and (min-width:425px){
+    .visual img{
+        display: none;
+    }
+    li{
+        font-size: 16px;
+    }
+}
+@media (max-width:425px){
+    h1{
+        font-size: 33px;
+    }
+    .text p{
+        display: none;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .promo-left{
+        width: 425px;
+        padding: 133px;
+    }
+    .promo-right{
+        width: 100%;
+        padding: 100px;
+    }
+    .promo{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .visual img{
+        display: none;
+    }
+}
+@media (max-width:320px){
+    h1 span{
+        font-size: 21px;
+    }
+    h1{
+        font-size: 29px;
+    }
+    .free{
+        font-size: 40px;
+    }
+}
